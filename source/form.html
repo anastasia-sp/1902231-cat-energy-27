@@ -7,6 +7,7 @@
 </head>
 
 <body class="page__body">
+  <h1 class="visually-hidden">Форма записи на подбор программы питания</h1>
   <header class="main-header">
     <a class="main-header__logo logo" href="./index.html">
       <img class="logo__image" width="33" height="37" alt="Магазин «Кэт Энерджи»">
@@ -29,12 +30,12 @@
     </nav>
   </header>
 
-  <main class="main-container selection">
+  <main class="main-container">
 
-    <h1 class="selection__title">Подбор программы</h1>
-    <p class="selection__text">Заполните анкету, и мы подберем программу питания для вашего кота</p>
+    <h1 class="main-container__title">Подбор программы</h1>
+    <p class="main-container__text">Заполните анкету, и мы подберем программу питания для вашего кота</p>
 
-    <form class="selection__form selection-form" action="https://echo.htmlacademy.ru/" method="post">
+    <form class="main-container__form selection-form" action="https://echo.htmlacademy.ru/" method="post">
 
       <fieldset class="selection-form__group form-group">
         <legend class="visually-hidden">Данные кота</legend>
@@ -114,7 +115,8 @@
       <p class="selection-form__group form-group">
         <label class="form-group__title field">
           Комментарий
-         <textarea class="field__input" name="text" rows="4" placeholder="Расскажите обо всех повадках кота"></textarea>
+          <textarea class="field__input" name="text" rows="4"
+            placeholder="Расскажите обо всех повадках кота"></textarea>
         </label>
       </p>
 
@@ -159,7 +161,7 @@
       <span class="selection-form__comment">* — Обязательные поля</span>
     </form>
 
-    <section class="selection__section contacts">
+    <section class="main-container__section contacts">
       <h2 class="visually-hidden">Контакты</h2>
       <p class="contacts__title">Приглашаем к сотрудничеству дилеров!</p>
       <p class="contacts__address">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
