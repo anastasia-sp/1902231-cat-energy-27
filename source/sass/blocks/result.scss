@@ -1,0 +1,20 @@
+.result {
+    list-style-type: none;
+}
+
+.result__title {
+    color: $color-gray-600;
+    font-family: $font-text;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: lowercase;
+    margin: 0;
+}
+
+.result__value {
+    color: $color-black;
+    font-family: $font-title;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+}

@@ -1,0 +1,43 @@
+.example {
+    background-color: $color-gray-100;
+}
+
+.example__title {
+    font-family: $font-title;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    color: $color-black;
+}
+
+.example__text {
+    font-family: $font-text;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.example__table {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.example__price {
+    text-align: center;
+    font-family: $font-title;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: $color-black;
+}
+
+.example__slider {
+    text-align: center;
+}
+
+.example__button {
+    border-width: 0;
+    padding: 0;
+}

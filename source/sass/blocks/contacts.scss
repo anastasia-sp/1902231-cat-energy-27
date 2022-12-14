@@ -1,0 +1,16 @@
+.contacts__title {
+    font-family: $font-title;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: $color-gray-800;
+}
+
+.contacts__address {
+    font-family: $font-text;
+    color: $color-gray-600;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
