@@ -1,0 +1,17 @@
+.field__text {
+  color: $color-gray-600;
+  font-family: $font-title;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.field__input {
+  color: $color-gray-600;
+  font-family: $font-title;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  border: 1px solid $color-border;
+  padding: 10px 20px;
+}

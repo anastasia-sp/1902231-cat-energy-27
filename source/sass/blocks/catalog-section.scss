@@ -1,0 +1,31 @@
+.catalog-section {
+  color: $color-black;
+}
+
+.catalog-section__item {
+  background-color: $color-gray-50;
+}
+
+.catalog-section__title {
+  margin: 0;
+  font-family: $font-title;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 37px;
+  text-transform: uppercase;
+}
+
+.catalog-section__text {
+  font-family: $font-text;
+  font-size: 14px;
+  line-height: 18px;
+  color: $color-gray-600;
+}
+
+.catalog-section__link {
+  font-family: $font-title;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
