@@ -1,5 +1,6 @@
 @import "./variables.scss";
 @import "./fonts.scss";
+@import "./global.scss";
 @import "./blocks/page.scss";
 @import "./blocks/button.scss";
 @import "./blocks/site-list.scss";
@@ -22,4 +23,5 @@
 @import "./blocks/radio.scss";
 @import "./blocks/form-options.scss";
 @import "./blocks/checkbox.scss";
-@import "global.scss";
+@import "./blocks/main-header.scss";
+@import "./blocks/main-nav.scss";

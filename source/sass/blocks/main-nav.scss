@@ -1,0 +1,15 @@
+.main-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: $tablet-width) {
+  .main-nav {
+    flex-direction: row;
+    gap: 34px;
+  }
+
+  .main-nav__toggle {
+    display: none;
+  }
+}
