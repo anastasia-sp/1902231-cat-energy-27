@@ -14,8 +14,8 @@
   margin: 0;
   padding-top: 25px;
   font-weight: 400;
-  font-size: 43px;
-  line-height: 43px;
+  font-size: 36px;
+  line-height: 36px;
 }
 
 .preview__text {
@@ -35,11 +35,14 @@
 
   .preview__title {
     order: 0;
-    width: 414px;
+    font-size: 60px;
+    line-height: 60px;
   }
 
   .preview__text {
     order: 1;
+    font-size: 20px;
+    line-height: 20px;
   }
 
   .preview__button {
