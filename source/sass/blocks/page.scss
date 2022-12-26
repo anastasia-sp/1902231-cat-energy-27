@@ -1,30 +1,25 @@
 .page {
   background-color: $color-white;
+  display: flex;
+  justify-content: center;
+
+  @media (min-width: $tablet-width) {
+    .page__body {
+      width: 768px;
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    .page__body {
+      width: 1220px;
+    }
+  }
 }
 
 .page__body {
-  min-width: 320px;
+  width: 320px;
   margin: 0;
   font-family: $font-text;
   font-size: 14px;
   line-height: 18px;
-}
-
-.page__container {
-  width: 320px;
-  padding: 0 20px;
-}
-
-@media (min-width: $tablet-width) {
-  .page__container {
-    width: 768px;
-    padding: 0 30px;
-  }
-}
-
-@media (min-width: $desktop-width) {
-  .page__container {
-    width: 1440px;
-    padding: 0 55px;
-  }
 }

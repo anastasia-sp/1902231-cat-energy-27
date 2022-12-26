@@ -1,16 +1,12 @@
 .catalog-section {
   color: $color-black;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
   padding-top: 20px;
 }
 
 .catalog-section__item {
   background-color: $color-gray-50;
-  display: flex;
-  flex-direction: column;
   padding: 20px 0 22px 20px;
+  margin-bottom: 20px;
 }
 
 .catalog-section__title {
@@ -63,7 +59,8 @@
 
 @media (min-width: $desktop-width) {
   .catalog-section {
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     column-gap: 80px;
     justify-content: space-between;
   }
