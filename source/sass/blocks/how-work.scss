@@ -13,10 +13,6 @@
 }
 
 .how-work__list {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  gap: 26px;
   font-size: 14px;
   line-height: 18px;
   list-style-type: none;
@@ -25,28 +21,21 @@
 }
 
 .how-work__item {
-  width: 200px;
+  margin-bottom: 26px;
 }
 
 @media (min-width: $tablet-width) {
   .how-work__list {
-    flex-direction: row;
-    column-gap: 140px;
-    row-gap: 80px;
-  }
-
-  .how-work__item {
-    width: 225px;
+    display: grid;
+    grid-template-columns: 230px 230px;
+    column-gap: 154px;
+    row-gap: 37px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .how-work__list {
-    flex-direction: row;
-    column-gap: 85px;
-  }
-
-  .how-work__item {
-    width: 255px;
+    grid-template-columns: 230px 230px 230px 230px;
+    column-gap: 95px;
   }
 }
