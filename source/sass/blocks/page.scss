@@ -2,23 +2,12 @@
   background-color: $color-white;
   display: flex;
   justify-content: center;
-
-  @media (min-width: $tablet-width) {
-    .page__body {
-      width: 768px;
-    }
-  }
-
-  @media (min-width: $desktop-width) {
-    .page__body {
-      width: 1220px;
-    }
-  }
 }
 
 .page__body {
-  width: 320px;
-  margin: 0;
+  min-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
   font-family: $font-text;
   font-size: 14px;
   line-height: 18px;
