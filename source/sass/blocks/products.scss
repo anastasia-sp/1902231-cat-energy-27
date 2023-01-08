@@ -4,4 +4,34 @@
   font-weight: 400;
   font-size: 36px;
   line-height: 36px;
+  margin: 0;
+}
+
+@media (min-width: $tablet-width) {
+  .products__card {
+    display: grid;
+    grid-template-columns: 324px 324px;
+    gap: 60px;
+    align-items: center;
+  }
+
+  .products__title {
+    font-size: 60px;
+    line-height: 60px;
+    padding-top: 75px;
+    padding-bottom: 90px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .products__card {
+    grid-template-columns: 245px 245px 245px 245px;
+    gap: 80px;
+    align-items: center;
+  }
+
+  .products__title {
+    padding-top: 90px;
+    padding-bottom: 85px;
+  }
 }
