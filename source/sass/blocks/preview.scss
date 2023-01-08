@@ -8,6 +8,8 @@
   color: $color-white;
   background-image: linear-gradient($color-gradient, $color-gradient), url("../img/index-background.png");
   background-repeat: no-repeat;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .preview__title {
@@ -30,7 +32,7 @@
     color: $color-black;
     background-image: none;
     text-align: start;
-    padding-left: 120px;
+    padding: 0 30px;
   }
 
   .preview__title {
@@ -51,5 +53,12 @@
 
   .preview__image {
     order: 3;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .preview {
+    width: auto;
+    padding: 0 55px;
   }
 }

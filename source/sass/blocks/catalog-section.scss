@@ -1,6 +1,8 @@
 .catalog-section {
   color: $color-black;
+  padding: 0 20px;
   padding-top: 20px;
+  margin: 0 auto;
 }
 
 .catalog-section__item {
@@ -35,6 +37,10 @@
 }
 
 @media (min-width: $tablet-width) {
+  .catalog-section {
+    padding: 0 30px;
+  }
+
   .catalog-section__item {
     padding: 50px;
   }
@@ -63,6 +69,7 @@
     grid-template-columns: 1fr 1fr;
     column-gap: 80px;
     justify-content: space-between;
+    padding: 0 55px;
   }
 
   .catalog-section__item {

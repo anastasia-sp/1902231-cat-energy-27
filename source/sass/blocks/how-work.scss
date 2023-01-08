@@ -1,5 +1,7 @@
 .how-work {
   color: $color-gray-600;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .how-work__title {
@@ -23,6 +25,10 @@
 }
 
 @media (min-width: $tablet-width) {
+  .how-work {
+    padding: 0 30px;
+  }
+
   .how-work__list {
     grid-template-columns: 230px 230px;
     column-gap: 154px;
@@ -31,6 +37,10 @@
 }
 
 @media (min-width: $desktop-width) {
+  .how-work {
+    padding: 0 55px;
+  }
+
   .how-work__list {
     grid-template-columns: 230px 230px 230px 230px;
     column-gap: 95px;
