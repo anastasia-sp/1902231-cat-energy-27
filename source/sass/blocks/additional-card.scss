@@ -1,6 +1,5 @@
 .additional-card {
   display: grid;
-  grid-template-columns: 280px;
   row-gap: 14px;
   padding-top: 13px;
   padding-bottom: 15px;
@@ -17,8 +16,7 @@
 }
 
 .additional-card__list {
-  display: grid;
-  grid-template-columns: 140px 140px;
+  display: flex;
   justify-content: space-between;
   margin: 0;
   padding: 0;
@@ -33,15 +31,13 @@
 
 @media (min-width: $tablet-width) {
   .additional-card {
-    grid-template-columns: 316px 316px;
+    grid-template-columns: 412px 220px;
     grid-template-areas:
       "title table"
       "button button";
-    justify-content: space-between;
     row-gap: 25px;
     column-gap: 0;
     padding: 28px 39px;
-    border: 1px solid $color-gray-300;
   }
 
   .additional-card__title {
@@ -54,6 +50,7 @@
 
   .additional-card__button {
     grid-area: button;
+    justify-content: center;
   }
 }
 
@@ -62,5 +59,7 @@
     grid-template-columns: 170px 285px 245px;
     padding: 25px 0;
     row-gap: 0;
+    column-gap: 40px;
+    grid-template-areas: "title table button";
   }
 }

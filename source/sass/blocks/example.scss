@@ -1,11 +1,15 @@
 .example {
   background-color: $color-gray-100;
+  padding-bottom: 75px;
+}
+
+.example__wrapper {
   display: grid;
   grid-template-columns: 280px;
   gap: 20px;
-  padding: 0 20px;
-  padding-bottom: 75px;
-  margin: 0 auto;
+  width: 280px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .example__title {
@@ -52,14 +56,14 @@
 }
 
 @media (min-width: $tablet-width) {
-  .example {
+  .example__wrapper {
     grid-template-columns: 390px 320px;
     grid-template-areas:
       "title title"
       "text text"
       "table price"
       "slider slider";
-    padding: 0 30px;
+    width: 720px;
   }
 
   .example__title {
@@ -86,7 +90,7 @@
 }
 
 @media (min-width: $desktop-width) {
-  .example {
+  .example__wrapper {
     grid-template-columns: 1fr 1fr;
     justify-content: center;
     grid-template-areas:
@@ -94,7 +98,7 @@
       "text slider"
       "table slider"
       "price slider";
-    padding: 0 55px;
+    width: 1220px;
   }
 
   .example__price {

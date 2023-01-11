@@ -1,20 +1,24 @@
 .preview {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  gap: 25px;
   font-family: $font-title;
   text-align: center;
   color: $color-white;
-  background-image: linear-gradient($color-gradient, $color-gradient), url("../img/index-background.png");
+  background-image: url("../img/index-background.png");
   background-repeat: no-repeat;
-  margin: 0 auto;
-  padding: 0 20px;
+}
+
+.preview__wrapper {
+  width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
 }
 
 .preview__title {
   margin: 0;
-  padding-top: 25px;
+  padding-top: 27px;
+  padding-bottom: 25px;
   font-weight: 400;
   font-size: 36px;
   line-height: 36px;
@@ -31,34 +35,27 @@
   .preview {
     color: $color-black;
     background-image: none;
-    text-align: start;
-    padding: 0 30px;
+  }
+
+  .preview__wrapper {
+    width: 720px;
   }
 
   .preview__title {
-    order: 0;
     font-size: 60px;
     line-height: 60px;
+    padding-bottom: 40px;
   }
 
   .preview__text {
-    order: 1;
     font-size: 20px;
     line-height: 20px;
-  }
-
-  .preview__button {
-    order: 2;
-  }
-
-  .preview__image {
-    order: 3;
+    padding-bottom: 49px;
   }
 }
 
 @media (min-width: $desktop-width) {
-  .preview {
-    width: auto;
-    padding: 0 55px;
+  .preview__wrapper {
+    width: 1220px;
   }
 }
