@@ -1,0 +1,20 @@
+.selection-form__wrapper {
+  width: 280px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: $tablet-width) {
+  .selection-form__wrapper {
+    width: 720px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .selection-form__wrapper {
+    width: 1220px;
+    display: grid;
+    grid-template-columns: 570px 570px;
+    column-gap: 80px;
+  }
+}

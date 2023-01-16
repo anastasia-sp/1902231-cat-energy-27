@@ -1,3 +1,10 @@
+.field {
+  display: grid;
+  grid-template-columns: min-content auto;
+  gap: 13px;
+  padding-bottom: 24px;
+}
+
 .field__text {
   color: $color-gray-600;
   font-family: $font-title;
@@ -14,4 +21,16 @@
   text-transform: uppercase;
   border: 1px solid $color-border;
   padding: 10px 20px;
+}
+
+@media (min-width: $tablet-width) {
+  .field__text {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .field__input {
+    font-size: 20px;
+    line-height: 30px;
+  }
 }

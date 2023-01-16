@@ -1,0 +1,35 @@
+.form-comment {
+  display: grid;
+}
+
+.form-comment__input {
+  order: 2;
+  color: $color-gray-600;
+  font-family: $font-title;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  border: 1px solid $color-border;
+  padding: 10px 20px;
+}
+
+.form-comment__title {
+  order: 1;
+  font-family: $font-title;
+  color: $color-black;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  padding-bottom: 35px;
+}
+
+@media (min-width: $tablet-width) {
+  .form-comment {
+    grid-column: 1/-1;
+  }
+
+  .form-comment__title {
+    font-size: 36px;
+    line-height: 36px;
+  }
+}

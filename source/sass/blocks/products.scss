@@ -21,7 +21,6 @@
   .products__wrapper {
     display: grid;
     grid-template-columns: 324px 324px;
-    grid-template-areas: "title title";
     gap: 60px;
     align-items: center;
     width: 720px;
@@ -32,14 +31,13 @@
     line-height: 60px;
     padding-top: 75px;
     padding-bottom: 30px;
-    grid-area: title;
+    grid-column: 1/-1;
   }
 }
 
 @media (min-width: $desktop-width) {
   .products__wrapper {
     grid-template-columns: 245px 245px 245px 245px;
-    grid-template-areas: "title title title title";
     gap: 80px;
     align-items: center;
     width: 1220px;
