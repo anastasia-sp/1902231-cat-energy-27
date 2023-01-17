@@ -10,7 +10,11 @@
 .contacts__address {
   display: flex;
   justify-content: space-between;
-  padding: 26px 20px;
+  width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 26px;
+  padding-bottom: 26px;
   background-color: $color-white;
 }
 
@@ -45,8 +49,10 @@
   .contacts__address {
     display: flex;
     justify-content: space-between;
-    padding: 60px 70px;
+    padding-top: 59px;
+    padding-bottom: 56px;
     background-color: $color-white;
+    width: 720px;
   }
 
   .contacts__title {
@@ -67,6 +73,9 @@
   }
 
   .contacts__wrapper {
+    width: 1220px;
+    margin-right: auto;
+    margin-left: auto;
     padding: 95px;
   }
 
@@ -87,6 +96,7 @@
     width: 565px;
     padding: 60px 60px 56px 80px;
     background-color: $color-white;
+    margin: 0;
   }
 
   .contacts__title {

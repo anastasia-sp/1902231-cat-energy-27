@@ -1,6 +1,6 @@
 .field {
   display: grid;
-  grid-template-columns: min-content auto;
+  grid-template-columns: auto 1fr;
   gap: 13px;
   padding-bottom: 24px;
 }
@@ -21,6 +21,7 @@
   text-transform: uppercase;
   border: 1px solid $color-border;
   padding: 10px 20px;
+  min-width: 100px;
 }
 
 @media (min-width: $tablet-width) {
